@@ -1,0 +1,28 @@
+GET http://localhost:3000/create/table/
+
+####
+
+get http://localhost:3000/product/2/
+
+
+###
+get http://localhost:3000/products/?page=1&pageSize=10&productName=apple&category=electronics
+
+###
+delete http://localhost:3000/product/2/
+
+###
+POST http://localhost:3000/add/product/
+Content-Type: application/json
+
+{
+    "id":2,
+    "productName":" Leather Laptop Bag",
+    "productCategory":"Fashion",
+    "imageUrl":"www.google/bag",
+    "productDescription":"protect laptop"
+}
+
+
+
+
